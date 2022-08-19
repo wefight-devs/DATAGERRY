@@ -21,7 +21,7 @@ BUILDVAR_DOCKER_TAG = undefined
 BIN_PYINSTALLER = pyinstaller
 BIN_SPHINX = sphinx-build
 BIN_PYTEST = pytest
-BIN_PIP = pip
+BIN_PIP = pip3
 BIN_NPM = npm
 BIN_RPMBUILD = rpmbuild
 DIR_BUILD = $(CURDIR)/target
@@ -48,6 +48,7 @@ all: bin rpm targz docker
 # install Python requirements
 .PHONY: requirements
 requirements:
+	${BIN_PIP} install --upgrade pip 
 	${BIN_PIP} install -r requirements.txt
 
 
