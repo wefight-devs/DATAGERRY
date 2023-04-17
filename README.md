@@ -1,4 +1,7 @@
 ![Image](app/src/assets/img/datagerry_logo.svg)
+![Release](https://github.com/nomaddevops/datagerry/actions/workflows/release.yml/badge.svg?branch=main)
+THIS IS A FORK 
+
 DATAGERRY is an OpenSource CMDB & Asset Management Tool, which completely leaves the definition of a data model to the user.
 
 Key Functions:
@@ -28,4 +31,4 @@ See [DATAGERRY website](https://www.datagerry.com) for more details!
 ## Continous Integration
 | Service        | development      | master       |
 | -------------- |----------------- | ------------ |
-| Github Actions | ![Continous Integration](https://github.com/NETHINKS/DATAGERRY/workflows/Continous%20Integration/badge.svg?branch=development) | ![Continous Integration](https://github.com/NETHINKS/DATAGERRY/workflows/Continous%20Integration/badge.svg?branch=master) |
+| Github Actions | ![Continous Integration](https://github.com/NETHINKS/DATAGERRY/workflows/Continous%20Integration/badge.svg?branch=development) | ![Release](https://github.com/nomaddevops/datagerry/actions/workflows/release.yml/badge.svg?branch=main) |
