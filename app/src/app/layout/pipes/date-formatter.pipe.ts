@@ -16,7 +16,7 @@
 * along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
-import * as moment from 'moment';
+import * as moment from 'moment-timezone';
 import { Pipe, PipeTransform } from '@angular/core';
 import { DateSettingsService} from '../../settings/services/date-settings.service';
 
