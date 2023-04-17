@@ -1,0 +1,12 @@
+.github
+docs/
+tests/
+.coveragerc
+.flake8
+.pylintrc
+.git*
+LICENSE
+Makefile
+MANIFEST
+pytest.ini
+README*
