@@ -40,7 +40,7 @@ pycodestyle==2.6.0
 pycparser==2.20
 pycryptodome==3.10.1
 pyflakes==2.2.0
-Pygments==2.7.4
+Pygments==2.15.0
 pyinstaller==5.10
 pyinstaller-hooks-contrib>=2023.2
 pylint==2.7.2
